@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+}
+nav{
+  background-color: black;
+}
+nav ul{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0 15px;
+  transition: all 2s linear;
+}
+nav li:hover{
+  background-color: tomato;
+  font-size: 50px;
+  border: 5px cyan double;
+}
+
+nav li a {
+  color:white;
+  text-decoration: none;
+}
+
